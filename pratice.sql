@@ -16,3 +16,5 @@ select distinct country from population_years where population > 100 and year = 
 select count (distinct country) from population_years where country like '%Islands%';
 
 --Question 8
+--the difference in population is 28.29173
+select * from population_years where country = 'Indonesia' and year in (2000, 2010);
